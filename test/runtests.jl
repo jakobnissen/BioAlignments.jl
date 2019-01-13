@@ -856,9 +856,9 @@ end
                   ^^
                 """)
 
-                testaln(" ACGT  \nAACGTTT\n ^^^^  ")
-                testaln("  AC-GT  \nAAACTGTTT")
+                testaln(" ACGT  \nAACGTTT\n ^^^^  \n")
 
+                testaln("  AC-GT  \nAAACTGTTT\n")
             end
 
             @testset "no match" begin
